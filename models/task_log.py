@@ -5,7 +5,7 @@ Base = declarative_base()
 
 
 class TaskLog(Base):
-    __tablename__ = "user_logs"
+    __tablename__ = "api_calls"
 
     id = Column(Integer, primary_key=True, index=True)
     timestamp = Column(DateTime)
